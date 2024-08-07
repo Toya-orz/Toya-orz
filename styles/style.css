@@ -1,0 +1,53 @@
+p {
+    color: rgba(255, 240, 242, 0.96);
+  }
+a {
+  color: #79b3e6;
+}
+a:hover {
+    color: #0ce6cd;
+  }
+
+html {
+    font-size: 10px;
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #caedff;
+  }
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #caedff;
+    text-shadow: 3px 3px 1px black;
+    /* 	第一个像素值设置阴影相对于文本的水平偏移：它移动的距离。
+	    第二个像素值设置阴影相对于文本的垂直偏移：向下移动的距离。
+		  第三个像素值设置阴影的模糊半径。值越大，阴影看起来越模糊。
+      第四个值设置阴影的基色。 */
+  }
+    
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+    
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ffb145;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
+  img {
+      display: block;
+      margin: 0 auto;
+      width: 85%;
+    }
+    
+  
