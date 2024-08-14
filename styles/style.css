@@ -1,12 +1,16 @@
 p {
     color: rgba(255, 240, 242, 0.96);
   }
-a {
-  color: #79b3e6;
-}
+
 a:hover {
-    color: #0ce6cd;
+    color: aquamarine;
+    text-decoration: none;
   }
+
+a {
+    color: rgb(255, 255, 255);
+}
+
 
 html {
     font-size: 10px;
@@ -21,16 +25,32 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 20px 0;
-    color: #caedff;
+    color: #ffffff;
     text-shadow: 3px 3px 1px black;
     /* 	第一个像素值设置阴影相对于文本的水平偏移：它移动的距离。
 	    第二个像素值设置阴影相对于文本的垂直偏移：向下移动的距离。
 		  第三个像素值设置阴影的模糊半径。值越大，阴影看起来越模糊。
       第四个值设置阴影的基色。 */
+    border-bottom: 6px dotted #ffffff
   }
     
+h2 {
+  font-size: 25px;
+  text-align: left;
+  color: #fddede;
+  text-shadow: 1px 1px 1px rgb(120, 117, 117);
+}
+
+article p,
+h2 {
+  text-indent: 2em;
+  line-height: 1.5;
+}
+
 p,
+time,
 li {
+    color: #ffffff;
     font-size: 16px;
     line-height: 2;
     letter-spacing: 1px;
@@ -39,15 +59,38 @@ li {
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #ffb145;
+    background-color: #f8ba63;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
   }
   
-  img {
-      display: block;
-      margin: 0 auto;
-      width: 85%;
-    }
-    
-  
+img {
+    display: block;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+img.top-margin {
+  margin-top: 30px;
+  }
+
+.related {
+  list-style-type: none;
+  color: rgb(255, 218, 250);
+  }
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+}
+
+img.contacts_pic {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.sender-column {
+  text-align: right;
+  line-height: 2
+}
