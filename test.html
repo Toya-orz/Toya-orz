@@ -1,13 +1,82 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>情书示例</title>
+    <meta charset="UTF-8">
+    <title>Display Types Example</title>
+    <style>
+        .block-element {
+          display: block;
+          background-color: lightblue;
+          padding: 10px;
+          margin: 10px;
+        }
+        
+        .inline-element {
+          display: inline;
+          background-color: lightgreen;
+          padding: 5px;
+          margin: 5px;
+        }
+        
+        .inline-block-element {
+          display: inline-block;
+          background-color: lightyellow;
+          padding: 5px;
+          margin: 5px;
+        }
+        
+        .flex-container {
+          display: flex;
+          background-color: lightgray;
+          padding: 10px;
+          margin: 10px;
+        }
+        
+        .flex-item {
+          flex: 1;
+          background-color: pink;
+          padding: 5px;
+          margin: 5px;
+        }
+        
+        .grid-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 10px;
+          background-color: lightcoral;
+          padding: 10px;
+          margin: 10px;
+        }
+        
+        .grid-item {
+          background-color: lightseagreen;
+          padding: 5px;
+          margin: 5px;
+        }
+    </style>
 </head>
 <body>
-    <h2 id="loveletter">布布给一二读的第一封情书</h2>
-    <p>我用什么才能留住你？
-        <br>我给你瘦落的街道、绝望的落日、荒郊的月亮。
-        <br>我给你一个久久地望着孤月的人的悲哀。</p>
+    <div class="block-element">
+        Block Element: This is a block element that will start on a new line and take up the full width.
+    </div>
+    
+    <span class="inline-element">Inline Element: This is an inline element that will not start on a new line and only take up the space it needs.</span>
+    
+    <span class="inline-block-element">Inline-Block Element: This is an inline-block element that can be set to a specific width and height and will not start a new line.</span>
+    
+    <div class="flex-container">
+        <div class="flex-item">Flex Item 1</div>
+        <div class="flex-item">Flex Item 2</div>
+        <div class="flex-item">Flex Item 3</div>
+    </div>
+    
+    <div class="grid-container">
+        <div class="grid-item">Grid Item 1</div>
+        <div class="grid-item">Grid Item 2</div>
+        <div class="grid-item">Grid Item 3</div>
+        <div class="grid-item">Grid Item 4</div>
+        <div class="grid-item">Grid Item 5</div>
+        <div class="grid-item">Grid Item 6</div>
+    </div>
 </body>
 </html>
