@@ -7,10 +7,10 @@ const myImage = document.querySelector("img");//在myImage中存储了对<img>�
 
 myImage.onclick = () => {//将其onclick事件处理程序属性设置为匿名函数）
   const mySrc = myImage.getAttribute("src");//检索图像的src属性的值
-  if (mySrc === "images/yierbubu.jpg") {
+  if (mySrc === "images/prince_fox1.png") {
     myImage.setAttribute("src", "images/yierbubu3.jpg");
   } else {
-    myImage.setAttribute("src", "images/yierbubu.jpg");
+    myImage.setAttribute("src", "images/prince_fox1.png");
   }
 };
 
