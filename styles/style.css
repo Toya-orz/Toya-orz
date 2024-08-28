@@ -161,4 +161,34 @@ nav {
   align-items: center; /* 垂直居中 */
 }
 
+.background_stars {
+  background-image: url('snow.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 600px auto
+}
 
+.background_leaf {
+  background-image: url('leaf.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 350px auto
+}
+
+.background_stars {
+  background-image: url('snow.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 600px auto
+}
+
+.background_forletter {
+  background-image: url('forletter.gif');
+  background-repeat: repeat; /* 图片重复 */
+  background-position: center center; /* 背景图片居中 */
+  background-size: cover; /* 图片覆盖整个容器 */
+  background-size: 400px auto
+}
